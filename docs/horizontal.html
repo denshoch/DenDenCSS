@@ -1,0 +1,359 @@
+<!doctype html>
+<html>
+  <head>
+    <title>a brand new styleguide: </title>
+    <link rel="stylesheet" href="./css/doc.css">
+    <link rel="stylesheet" href="./dist/horizontal.css">
+  </head>
+  <body>
+    <div>
+      <nav>
+        <ul>
+        
+          <li><a href="index.html"></a></li>
+        
+        </ul>
+      </nav>
+
+      <h1>a brand new style guide, it's super effective</h1>
+      <section class="content">
+        <ul>
+        
+        </ul>
+<hr>
+<p class="styleguide">title: 横書きデフォルト
+name: horizontal</p>
+<h2>category: horizontal</h2>
+<p class="styleguide">でんでんコンバーターの横書きスタイルシートです。</p>
+<h2>見出し</h2>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <h1>見出しランク1</h1>
+<h2>見出しランク2</h2>
+<h3>見出しランク3</h3>
+<h4>見出しランク4</h4>
+<h5>見出しランク5</h5>
+<h6>見出しランク6</h6>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;h1&gt;</span>見出しランク1<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;h2&gt;</span>見出しランク2<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;h3&gt;</span>見出しランク3<span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;h4&gt;</span>見出しランク4<span class="nt">&lt;/h4&gt;</span>
+<span class="nt">&lt;h5&gt;</span>見出しランク5<span class="nt">&lt;/h5&gt;</span>
+<span class="nt">&lt;h6&gt;</span>見出しランク6<span class="nt">&lt;/h6&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h2>段落</h2>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <p>これは段落です。</p>
+<p>これはもう一つの段落です</p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p&gt;</span>これは段落です。<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span>これはもう一つの段落です<span class="nt">&lt;/p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h3>ルビ</h3>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <p>これはルビを含む<ruby>段落<rt>だんらく</rt></ruby>です。</p>
+<p>これはルビを含もう一つの<ruby>段落<rt>だんらく</rt></ruby>です</p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p&gt;</span>これはルビを含む<span class="nt">&lt;ruby&gt;</span>段落<span class="nt">&lt;rt&gt;</span>だんらく<span class="nt">&lt;/rt&gt;&lt;/ruby&gt;</span>です。<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span>これはルビを含もう一つの<span class="nt">&lt;ruby&gt;</span>段落<span class="nt">&lt;rt&gt;</span>だんらく<span class="nt">&lt;/rt&gt;&lt;/ruby&gt;</span>です<span class="nt">&lt;/p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h2>引用</h2>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <blockquote>
+  <p>これは引用された段落です。</p>
+  <p>これは引用されたもう一つの段落です。</p>
+</blockquote>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;blockquote&gt;</span>
+  <span class="nt">&lt;p&gt;</span>これは引用された段落です。<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;p&gt;</span>これは引用されたもう一つの段落です。<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/blockquote&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h2>箇条書き</h2>
+
+<h3>順不同の箇条書き</h3>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <ul>
+  <li>箇条書きの項目</li>
+  <li>箇条書きの項目</li>
+  <li>箇条書きの項目</li>
+</ul>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;ul&gt;</span>
+  <span class="nt">&lt;li&gt;</span>箇条書きの項目<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>箇条書きの項目<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>箇条書きの項目<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></pre>
+    </div>
+  </div>
+</div>
+<p class="styleguide">順不同の箇条書きの入れ子です。</p><div class="codeExample">
+  <div class="exampleOutput">
+    <ul>
+  <li>箇条書きの項目
+    <ul>
+      <li>箇条書きの項目
+        <ul>
+          <li>箇条書きの項目</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;ul&gt;</span>
+  <span class="nt">&lt;li&gt;</span>箇条書きの項目
+    <span class="nt">&lt;ul&gt;</span>
+      <span class="nt">&lt;li&gt;</span>箇条書きの項目
+        <span class="nt">&lt;ul&gt;</span>
+          <span class="nt">&lt;li&gt;</span>箇条書きの項目<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+      <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+  <span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h3>順序のある箇条書き</h3>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <ol>
+  <li>箇条書きの項目</li>
+  <li>箇条書きの項目</li>
+  <li>箇条書きの項目</li>
+</ol>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;ol&gt;</span>
+  <span class="nt">&lt;li&gt;</span>箇条書きの項目<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>箇条書きの項目<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>箇条書きの項目<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span></pre>
+    </div>
+  </div>
+</div>
+<p class="styleguide">順序のある箇条書きの入れ子です。</p><div class="codeExample">
+  <div class="exampleOutput">
+    <ol>
+  <li>箇条書きの項目
+    <ol>
+      <li>箇条書きの項目
+        <ol>
+          <li>箇条書きの項目</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+</ol>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;ol&gt;</span>
+  <span class="nt">&lt;li&gt;</span>箇条書きの項目
+    <span class="nt">&lt;ol&gt;</span>
+      <span class="nt">&lt;li&gt;</span>箇条書きの項目
+        <span class="nt">&lt;ol&gt;</span>
+          <span class="nt">&lt;li&gt;</span>箇条書きの項目<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ol&gt;</span>
+      <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ol&gt;</span>
+  <span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h2>文字装飾</h2>
+
+<h3>重要なテキスト <code class="styleguide">strong</code></h3>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <p>これは<strong>重要なテキスト</strong>です。</p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p&gt;</span>これは<span class="nt">&lt;strong&gt;</span>重要なテキスト<span class="nt">&lt;/strong&gt;</span>です。<span class="nt">&lt;/p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h3>強調されたテキスト <code class="styleguide">em</code></h3>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <p>これは<em>強調されたテキスト</em>です。</p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p&gt;</span>これは<span class="nt">&lt;em&gt;</span>強調されたテキスト<span class="nt">&lt;/em&gt;</span>です。<span class="nt">&lt;/p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h3>小書きのテキスト <code class="styleguide">small</code></h3>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <p>これは<small>小書きのテキスト</small>です。</p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p&gt;</span>これは<span class="nt">&lt;small&gt;</span>小書きのテキスト<span class="nt">&lt;/small&gt;</span>です。<span class="nt">&lt;/p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h3>ニュアンスを持つテキスト <code class="styleguide">i</code></h3>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <p>これは<i>ニュアンスを持つテキスト</i>です。</p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p&gt;</span>これは<span class="nt">&lt;i&gt;</span>ニュアンスを持つテキスト<span class="nt">&lt;/i&gt;</span>です。<span class="nt">&lt;/p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h3>傍線付きのテキスト <code class="styleguide">u</code></h3>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <p>これは<u>傍線付きのテキスト</u>です。</p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p&gt;</span>これは<span class="nt">&lt;u&gt;</span>傍線付きのテキスト<span class="nt">&lt;/u&gt;</span>です。<span class="nt">&lt;/p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h2>ヘルパークラス</h2>
+
+<h3>行の配置</h3>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <p class="text-left">これは左寄せです。</p>
+<p class="text-right">これは右寄せです。</p>
+<p class="text-center">これは中央寄せです。</p>
+<p class="text-justify">これは均等揃えです。</p>
+<p class="text-pre-wrap ">これはpre-wrapです。</p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-left"</span><span class="nt">&gt;</span>これは左寄せです。<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-right"</span><span class="nt">&gt;</span>これは右寄せです。<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-center"</span><span class="nt">&gt;</span>これは中央寄せです。<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-justify"</span><span class="nt">&gt;</span>これは均等揃えです。<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-pre-wrap "</span><span class="nt">&gt;</span>これはpre-wrapです。<span class="nt">&lt;/p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h3>隠しテキスト <code class="styleguide">.text-hide</code></h3>
+<div class="codeExample">
+  <div class="exampleOutput">
+    <p class="text-hide">この段落は目に見えません。</p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-hide"</span><span class="nt">&gt;</span>この段落は目に見えません。<span class="nt">&lt;/p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h3>縦中横 <code class="styleguide">.tcy</code></h3>
+<p class="styleguide">横書きではレイアウトに影響はありません。</p><div class="codeExample">
+  <div class="exampleOutput">
+    <p>昭和<span class="tcy">53</span>年</p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p&gt;</span>昭和<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"tcy"</span><span class="nt">&gt;</span>53<span class="nt">&lt;/span&gt;</span>年<span class="nt">&lt;/p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h3>文字の向き <code class="styleguide">.upright</code></h3>
+<p class="styleguide">横書きではレイアウトに影響はありません。</p><div class="codeExample">
+  <div class="exampleOutput">
+    <p>この文字<span class="upright">☆</span>は縦書きで正立します。</p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p&gt;</span>この文字<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"upright"</span><span class="nt">&gt;</span>☆<span class="nt">&lt;/span&gt;</span>は縦書きで正立します。<span class="nt">&lt;/p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h3>フォントの種類</h3>
+<p class="styleguide">丸ゴシック体は環境に使えるフォントがない場合にはゴシック体になります。</p><div class="codeExample">
+  <div class="exampleOutput">
+    <p class="fnt-serif">これは明朝体です。</p>
+<p class="fnt-sans">これはゴシック体です。</p>
+<p class="fnt-maru">これは丸ゴシック体です。</p>
+<p class="fnt-mono">これは monospace です。</p>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"fnt-serif"</span><span class="nt">&gt;</span>これは明朝体です。<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"fnt-sans"</span><span class="nt">&gt;</span>これはゴシック体です。<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"fnt-maru"</span><span class="nt">&gt;</span>これは丸ゴシック体です。<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"fnt-mono"</span><span class="nt">&gt;</span>これは monospace です。<span class="nt">&lt;/p&gt;</span></pre>
+    </div>
+  </div>
+</div>
+      </section>
+      <footer>
+        <p>This documentation generated using <a href="http://github.com/trulia/hologram">Hologram</a>
+      </footer>
+    </div>
+  </body>
+</html>

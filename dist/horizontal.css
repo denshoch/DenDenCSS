@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* でんでんコンバーター横書きデフォルト */
+@namespace "http://www.w3.org/1999/xhtml";
+@namespace epub "http://www.idpf.org/2007/ops";
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.text-justify {
+  text-align: justify; }
+
+.text-pre-wrap {
+  white-space: pre-wrap; }
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+.tcy {
+  -epub-text-combine: horizontal;
+  /* EPUB 3.0 */
+  -epub-text-combine-horizontal: all;
+  /* EPUB 3.0.1 */
+  -ms-text-combine-horizontal: all;
+  /* for IE 11 */
+  text-combine-horizontal: all;
+  text-combine-upright: all; }
+
+.sideways {
+  -epub-text-orientation: rotate-right;
+  /* EPUB 3.0 */
+  -epub-text-orientation: sideways;
+  /* EPUB 3.0.1 */
+  text-orientation: sideways; }
+
+.upright {
+  -epub-text-orientation: upright;
+  text-orientation: upright;
+  -epub-text-combine: horizontal;
+  /* EPUB 3.0 */
+  -epub-text-combine-horizontal: all;
+  /* EPUB 3.0.1 */
+  -ms-text-combine-horizontal: all;
+  /* for IE 11 */
+  text-combine-horizontal: all;
+  text-combine-upright: all; }
+
+.fnt-serif {
+  font-family: "游明朝体", "Yu Mincho", YuMincho, Georgia, "Times New Roman", Times, serif; }
+
+.fnt-sans {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.fnt-maru {
+  font-family: "Hiragino Maru Gothic ProN", Meiryo, sans-serif; }
+
+.fnt-mono {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }

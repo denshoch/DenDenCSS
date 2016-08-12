@@ -1,0 +1,27 @@
+{
+  "name": "denden-css",
+  "version": "0.0.0",
+  "description": "Default stylesheets for DenDenConverter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denshoch/DenDenCSS.git"
+  },
+  "keywords": [
+    "css",
+    "epub"
+  ],
+  "author": "Hiroshi TAKASE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denshoch/DenDenCSS/issues"
+  },
+  "homepage": "https://github.com/denshoch/DenDenCSS#readme",
+  "devDependencies": {
+    "gulp-hologram": "^1.2.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
